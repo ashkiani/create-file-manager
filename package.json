@@ -1,0 +1,19 @@
+{
+  "name": "create-file-manager-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkiani/create-file-manager-app.git"
+  },
+  "author": "Siavash Ashkiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashkiani/create-file-manager-app/issues"
+  },
+  "homepage": "https://github.com/ashkiani/create-file-manager-app#readme"
+}
