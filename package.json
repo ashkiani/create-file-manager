@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ashkiani/create-file-manager-app/issues"
   },
-  "homepage": "https://github.com/ashkiani/create-file-manager-app#readme"
+  "homepage": "https://github.com/ashkiani/create-file-manager-app#readme",
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  }
 }
