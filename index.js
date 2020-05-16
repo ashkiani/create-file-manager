@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 var path = require('path');
 const unzipper = require('unzipper');
