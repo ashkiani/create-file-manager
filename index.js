@@ -9,5 +9,5 @@ let appName = args[0];
 let dir = path.dirname(process.argv[1]);
 console.log(dir);
 console.log(process.cwd());
-fs.createReadStream(`./Archive.zip`)
+fs.createReadStream(path.resolve(__dirname,`Archive.zip`))
   .pipe(unzipper.Extract({ path: path.join(dir, appName) }));
