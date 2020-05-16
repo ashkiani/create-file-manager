@@ -6,8 +6,8 @@ const unzipper = require('unzipper');
 let args = process.argv.slice(2);
 console.log(args);
 let appName = args[0];
-let dir = path.dirname(process.argv[1]);
+let dir = path.join(process.cwd(), appName);
+console.log("Installing template at:");
 console.log(dir);
-console.log(process.cwd());
 fs.createReadStream(path.resolve(__dirname,`Archive.zip`))
-  .pipe(unzipper.Extract({ path: path.join(dir, appName) }));
+  .pipe(unzipper.Extract({ path: dir }));
