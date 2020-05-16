@@ -8,6 +8,6 @@ console.log(args);
 let appName = args[0];
 let dir = path.dirname(process.argv[1]);
 console.log(dir);
-
+console.log(process.env.INIT_CWD);
 fs.createReadStream(`./Archive.zip`)
   .pipe(unzipper.Extract({ path: path.join(dir, appName) }));
