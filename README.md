@@ -14,7 +14,7 @@ npm start
 ```
 (npx comes with npm 5.2+ and higher)
 
-Then update the .env file located in the app's root folder with your settings and open http://localhost:3000/ to see your app.
+Then update the .env file located in the app's root folder with your settings and open [http://localhost:3000/](http://localhost:3000/) to see your app.
 When you’re ready to deploy to production, create a minified bundle with npm run build.
 
 
@@ -29,7 +29,7 @@ Please email us for further questions at ashkiani@yahoo.com
 ​​
 ## Contribution Guidlines 
 ​
-Direct link to site: https://www.npmjs.com/package/create-file-manager-app
+Direct link to site: [https://www.npmjs.com/package/create-file-manager-app](https://www.npmjs.com/package/create-file-manager-app)
 
 ​
 ### License
