@@ -7,10 +7,10 @@ Create File Manager apps with no build configuration. This is the installer tool
 
 
 ## Quick Overview
-​```
-npx create-file-manager-app my-app
-cd my-app
-npm start
+```
+npx create-file-manager-app APP-NAME
+cd APP-NAME
+npm install
 ```
 (npx comes with npm 5.2+ and higher)
 
